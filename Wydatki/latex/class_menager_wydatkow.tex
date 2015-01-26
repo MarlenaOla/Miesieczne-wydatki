@@ -1,0 +1,195 @@
+\hypertarget{class_menager_wydatkow}{}\section{Menager\+Wydatkow Class Reference}
+\label{class_menager_wydatkow}\index{Menager\+Wydatkow@{Menager\+Wydatkow}}
+
+
+Klasa \hyperlink{class_menager_wydatkow}{Menager\+Wydatkow}. Klasa zawierajaca wszystkie listy i laczaca sie z baza.  
+
+
+
+
+{\ttfamily \#include $<$menagerwydatkow.\+h$>$}
+
+
+
+Collaboration diagram for Menager\+Wydatkow\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{class_menager_wydatkow__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_menager_wydatkow_abf10a3d0748daf04ee787e67a642b09a}{}\hyperlink{class_menager_wydatkow_abf10a3d0748daf04ee787e67a642b09a}{Menager\+Wydatkow} ()\label{class_menager_wydatkow_abf10a3d0748daf04ee787e67a642b09a}
+
+\begin{DoxyCompactList}\small\item\em Konstruktor \hyperlink{class_menager_wydatkow}{Menager\+Wydatkow}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_menager_wydatkow_af51b71d9b3da677b9b441f778f230a5f}{polacz\+D\+B} ()
+\begin{DoxyCompactList}\small\item\em Funkcja polacz\+D\+B. Laczy sie z baza. \end{DoxyCompactList}\item 
+\hypertarget{class_menager_wydatkow_a966523a5f411ad1f863ab0e0ca86b97e}{}void \hyperlink{class_menager_wydatkow_a966523a5f411ad1f863ab0e0ca86b97e}{wczytaj\+Liste\+Wydatkow\+D\+B} ()\label{class_menager_wydatkow_a966523a5f411ad1f863ab0e0ca86b97e}
+
+\begin{DoxyCompactList}\small\item\em Funkcja wczytaj\+Liste\+Wydatkow\+D\+B. Wczytuje liste wydatkow z bazy. \end{DoxyCompactList}\item 
+void \hyperlink{class_menager_wydatkow_aeaf79dc220332741e81cc073b08d6610}{wczytaj\+Liste\+Zestawienia\+D\+B} (Q\+Date start, Q\+Date koniec)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytaj\+Liste\+Zestawienia\+D\+B. Wczytuje liste zestawienia wydatkow z bazy, dla podanego okresu czasu. \end{DoxyCompactList}\item 
+void \hyperlink{class_menager_wydatkow_a344d520de55e5134b589ba02300b9431}{wczytaj\+Sume\+Za\+Okres\+D\+B} (Q\+Date start, Q\+Date koniec)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytaj\+Sume\+Za\+Okres\+D\+B. Podaje sume wydatkow za okres. \end{DoxyCompactList}\item 
+\hypertarget{class_menager_wydatkow_ae9a6ed4e74e93d8873129e8a8de2899f}{}void \hyperlink{class_menager_wydatkow_ae9a6ed4e74e93d8873129e8a8de2899f}{wczytaj\+Sume\+Calosci\+D\+B} ()\label{class_menager_wydatkow_ae9a6ed4e74e93d8873129e8a8de2899f}
+
+\begin{DoxyCompactList}\small\item\em Funkcja wczytaj\+Sume\+Calosci\+D\+B. Podaje sume wydatkow za caly okres. \end{DoxyCompactList}\item 
+void \hyperlink{class_menager_wydatkow_a30be73243e008dc5f7ab8eb669a05e55}{dodaj\+Wydatek} (Q\+String \+\_\+kategoria, Q\+Date \+\_\+data, double \+\_\+kwota, Q\+String \+\_\+opis)
+\begin{DoxyCompactList}\small\item\em Funkcja dodaj\+Wydatek. Funkcja dodajaca wpis. \end{DoxyCompactList}\item 
+void \hyperlink{class_menager_wydatkow_addeab8e73a7c13b9e4349892d692dfc3}{edytuj\+Wydatek} (int id, Q\+String kategoria, Q\+Date data, double kwota, Q\+String opis)
+\begin{DoxyCompactList}\small\item\em Funkcja edytuj\+Wydatek. Umozliwia edycje wpisu. \end{DoxyCompactList}\item 
+void \hyperlink{class_menager_wydatkow_a9aabc079d73f31d46a96148f85b9c4d7}{usun\+Wydatek} (int id)
+\begin{DoxyCompactList}\small\item\em Funkcja usun\+Wydatek. Umozliwia usuwanie wpisu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_menager_wydatkow_a3c981ccfc77f7f37e0d64c2a3897a7d0}{}\hyperlink{class_lista_wydatkow}{Lista\+Wydatkow} \hyperlink{class_menager_wydatkow_a3c981ccfc77f7f37e0d64c2a3897a7d0}{listawyd}\label{class_menager_wydatkow_a3c981ccfc77f7f37e0d64c2a3897a7d0}
+
+\begin{DoxyCompactList}\small\item\em Obiekt listawyd typu \hyperlink{class_lista_wydatkow}{Lista\+Wydatkow}. \end{DoxyCompactList}\item 
+\hypertarget{class_menager_wydatkow_a743a1a6ee65317e05e0efda038f2e104}{}\hyperlink{class_lista_kategorii}{Lista\+Kategorii} \hyperlink{class_menager_wydatkow_a743a1a6ee65317e05e0efda038f2e104}{listakat}\label{class_menager_wydatkow_a743a1a6ee65317e05e0efda038f2e104}
+
+\begin{DoxyCompactList}\small\item\em Obiekt listakat typu \hyperlink{class_lista_kategorii}{Lista\+Kategorii}. \end{DoxyCompactList}\item 
+\hypertarget{class_menager_wydatkow_a86bfd62a21e66b68a7f94550398a13a1}{}Q\+List$<$ \hyperlink{class_wpis_zestawienia}{Wpis\+Zestawienia} $>$ \hyperlink{class_menager_wydatkow_a86bfd62a21e66b68a7f94550398a13a1}{lista\+Zestawienia}\label{class_menager_wydatkow_a86bfd62a21e66b68a7f94550398a13a1}
+
+\begin{DoxyCompactList}\small\item\em Obiekt lista\+Zestawienia typu Q\+List. \end{DoxyCompactList}\item 
+\hypertarget{class_menager_wydatkow_a7f7d9dbb9e0ab215b725eff718596e10}{}double \hyperlink{class_menager_wydatkow_a7f7d9dbb9e0ab215b725eff718596e10}{suma\+Za\+Okres}\label{class_menager_wydatkow_a7f7d9dbb9e0ab215b725eff718596e10}
+
+\begin{DoxyCompactList}\small\item\em Zmienna suma\+Za\+Okres typu double. \end{DoxyCompactList}\item 
+\hypertarget{class_menager_wydatkow_a5620729078154b1911a15c999ddb87e9}{}double \hyperlink{class_menager_wydatkow_a5620729078154b1911a15c999ddb87e9}{suma\+Calosci}\label{class_menager_wydatkow_a5620729078154b1911a15c999ddb87e9}
+
+\begin{DoxyCompactList}\small\item\em Zmienna suma\+Calosci typu double. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \hyperlink{class_menager_wydatkow}{Menager\+Wydatkow}. Klasa zawierajaca wszystkie listy i laczaca sie z baza. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_menager_wydatkow_a30be73243e008dc5f7ab8eb669a05e55}{}\index{Menager\+Wydatkow@{Menager\+Wydatkow}!dodaj\+Wydatek@{dodaj\+Wydatek}}
+\index{dodaj\+Wydatek@{dodaj\+Wydatek}!Menager\+Wydatkow@{Menager\+Wydatkow}}
+\subsubsection[{dodaj\+Wydatek}]{\setlength{\rightskip}{0pt plus 5cm}void Menager\+Wydatkow\+::dodaj\+Wydatek (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{\+\_\+kategoria, }
+\item[{Q\+Date}]{\+\_\+data, }
+\item[{double}]{\+\_\+kwota, }
+\item[{Q\+String}]{\+\_\+opis}
+\end{DoxyParamCaption}
+)}\label{class_menager_wydatkow_a30be73243e008dc5f7ab8eb669a05e55}
+
+
+Funkcja dodaj\+Wydatek. Funkcja dodajaca wpis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Argument} & \+\_\+kategoria typu Q\+String. \\
+\hline
+{\em Argument} & \+\_\+data typu Q\+Date. \\
+\hline
+{\em Argument} & \+\_\+kwota typu double. \\
+\hline
+{\em Argument} & \+\_\+opis typu Q\+String. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menager_wydatkow_addeab8e73a7c13b9e4349892d692dfc3}{}\index{Menager\+Wydatkow@{Menager\+Wydatkow}!edytuj\+Wydatek@{edytuj\+Wydatek}}
+\index{edytuj\+Wydatek@{edytuj\+Wydatek}!Menager\+Wydatkow@{Menager\+Wydatkow}}
+\subsubsection[{edytuj\+Wydatek}]{\setlength{\rightskip}{0pt plus 5cm}void Menager\+Wydatkow\+::edytuj\+Wydatek (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{Q\+String}]{kategoria, }
+\item[{Q\+Date}]{data, }
+\item[{double}]{kwota, }
+\item[{Q\+String}]{opis}
+\end{DoxyParamCaption}
+)}\label{class_menager_wydatkow_addeab8e73a7c13b9e4349892d692dfc3}
+
+
+Funkcja edytuj\+Wydatek. Umozliwia edycje wpisu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Argument} & id typu int. \\
+\hline
+{\em Argument} & kategoria typu Q\+String. \\
+\hline
+{\em Argument} & data typu Q\+Date. \\
+\hline
+{\em Argument} & kwota typu double. \\
+\hline
+{\em Argument} & opis typu Q\+String. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menager_wydatkow_af51b71d9b3da677b9b441f778f230a5f}{}\index{Menager\+Wydatkow@{Menager\+Wydatkow}!polacz\+D\+B@{polacz\+D\+B}}
+\index{polacz\+D\+B@{polacz\+D\+B}!Menager\+Wydatkow@{Menager\+Wydatkow}}
+\subsubsection[{polacz\+D\+B}]{\setlength{\rightskip}{0pt plus 5cm}bool Menager\+Wydatkow\+::polacz\+D\+B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_menager_wydatkow_af51b71d9b3da677b9b441f778f230a5f}
+
+
+Funkcja polacz\+D\+B. Laczy sie z baza. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca zmienna typu bool. 
+\end{DoxyReturn}
+\hypertarget{class_menager_wydatkow_a9aabc079d73f31d46a96148f85b9c4d7}{}\index{Menager\+Wydatkow@{Menager\+Wydatkow}!usun\+Wydatek@{usun\+Wydatek}}
+\index{usun\+Wydatek@{usun\+Wydatek}!Menager\+Wydatkow@{Menager\+Wydatkow}}
+\subsubsection[{usun\+Wydatek}]{\setlength{\rightskip}{0pt plus 5cm}void Menager\+Wydatkow\+::usun\+Wydatek (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\label{class_menager_wydatkow_a9aabc079d73f31d46a96148f85b9c4d7}
+
+
+Funkcja usun\+Wydatek. Umozliwia usuwanie wpisu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Argument} & id typu int. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menager_wydatkow_aeaf79dc220332741e81cc073b08d6610}{}\index{Menager\+Wydatkow@{Menager\+Wydatkow}!wczytaj\+Liste\+Zestawienia\+D\+B@{wczytaj\+Liste\+Zestawienia\+D\+B}}
+\index{wczytaj\+Liste\+Zestawienia\+D\+B@{wczytaj\+Liste\+Zestawienia\+D\+B}!Menager\+Wydatkow@{Menager\+Wydatkow}}
+\subsubsection[{wczytaj\+Liste\+Zestawienia\+D\+B}]{\setlength{\rightskip}{0pt plus 5cm}void Menager\+Wydatkow\+::wczytaj\+Liste\+Zestawienia\+D\+B (
+\begin{DoxyParamCaption}
+\item[{Q\+Date}]{start, }
+\item[{Q\+Date}]{koniec}
+\end{DoxyParamCaption}
+)}\label{class_menager_wydatkow_aeaf79dc220332741e81cc073b08d6610}
+
+
+Funkcja wczytaj\+Liste\+Zestawienia\+D\+B. Wczytuje liste zestawienia wydatkow z bazy, dla podanego okresu czasu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Argument} & start typu Q\+Date. \\
+\hline
+{\em Argument} & koniec typu Q\+Date. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menager_wydatkow_a344d520de55e5134b589ba02300b9431}{}\index{Menager\+Wydatkow@{Menager\+Wydatkow}!wczytaj\+Sume\+Za\+Okres\+D\+B@{wczytaj\+Sume\+Za\+Okres\+D\+B}}
+\index{wczytaj\+Sume\+Za\+Okres\+D\+B@{wczytaj\+Sume\+Za\+Okres\+D\+B}!Menager\+Wydatkow@{Menager\+Wydatkow}}
+\subsubsection[{wczytaj\+Sume\+Za\+Okres\+D\+B}]{\setlength{\rightskip}{0pt plus 5cm}void Menager\+Wydatkow\+::wczytaj\+Sume\+Za\+Okres\+D\+B (
+\begin{DoxyParamCaption}
+\item[{Q\+Date}]{start, }
+\item[{Q\+Date}]{koniec}
+\end{DoxyParamCaption}
+)}\label{class_menager_wydatkow_a344d520de55e5134b589ba02300b9431}
+
+
+Funkcja wczytaj\+Sume\+Za\+Okres\+D\+B. Podaje sume wydatkow za okres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Argument} & start typu Q\+Date. \\
+\hline
+{\em Argument} & koniec typu Q\+Date. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+menagerwydatkow.\+h\item 
+menagerwydatkow.\+cpp\end{DoxyCompactItemize}

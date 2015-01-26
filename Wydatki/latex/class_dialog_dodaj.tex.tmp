@@ -1,0 +1,49 @@
+\hypertarget{class_dialog_dodaj}{}\section{Dialog\+Dodaj Class Reference}
+\label{class_dialog_dodaj}\index{Dialog\+Dodaj@{Dialog\+Dodaj}}
+
+
+Inheritance diagram for Dialog\+Dodaj\+:
+% FIG 0
+
+
+Collaboration diagram for Dialog\+Dodaj\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_dialog_dodaj_ad0b34b49b64f5a80112be0ad90af8f79}{}{\bfseries Dialog\+Dodaj} (Q\+Widget $\ast$parent=0)\label{class_dialog_dodaj_ad0b34b49b64f5a80112be0ad90af8f79}
+
+\item 
+\hypertarget{class_dialog_dodaj_a8c6c561a5a1427422ed8e6c3be794aaf}{}void {\bfseries set\+Lista\+Kategorii} (Q\+String\+List lista\+Kat)\label{class_dialog_dodaj_a8c6c561a5a1427422ed8e6c3be794aaf}
+
+\item 
+\hypertarget{class_dialog_dodaj_a730c587aec50f9a1fa092597ade172df}{}Q\+String {\bfseries get\+Kategoria} ()\label{class_dialog_dodaj_a730c587aec50f9a1fa092597ade172df}
+
+\item 
+\hypertarget{class_dialog_dodaj_ad7e955de6adf2bd0dfe001c6973010d3}{}Q\+Date {\bfseries get\+Data} ()\label{class_dialog_dodaj_ad7e955de6adf2bd0dfe001c6973010d3}
+
+\item 
+\hypertarget{class_dialog_dodaj_a105359d1ef27ae66ec5e0ed6d7272e37}{}double {\bfseries get\+Kwota} ()\label{class_dialog_dodaj_a105359d1ef27ae66ec5e0ed6d7272e37}
+
+\item 
+\hypertarget{class_dialog_dodaj_ab3738341a33051b2d817400c2d7239a3}{}Q\+String {\bfseries get\+Opis} ()\label{class_dialog_dodaj_ab3738341a33051b2d817400c2d7239a3}
+
+\item 
+\hypertarget{class_dialog_dodaj_a9c50df1e504afc4770393a8d408513da}{}void {\bfseries set\+Kategoria} (Q\+String kategoria)\label{class_dialog_dodaj_a9c50df1e504afc4770393a8d408513da}
+
+\item 
+\hypertarget{class_dialog_dodaj_aa841614497235c9464d84e031748a6fd}{}void {\bfseries set\+Data} (Q\+Date data)\label{class_dialog_dodaj_aa841614497235c9464d84e031748a6fd}
+
+\item 
+\hypertarget{class_dialog_dodaj_a8b16a52786c9b6ac4ab2728256b3b783}{}void {\bfseries set\+Kwota} (double kwota)\label{class_dialog_dodaj_a8b16a52786c9b6ac4ab2728256b3b783}
+
+\item 
+\hypertarget{class_dialog_dodaj_a63119933c54c3b316b242697c2c2cf9c}{}void {\bfseries set\+Opis} (Q\+String opis)\label{class_dialog_dodaj_a63119933c54c3b316b242697c2c2cf9c}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+dialogdodaj.\+h\item 
+dialogdodaj.\+cpp\end{DoxyCompactItemize}

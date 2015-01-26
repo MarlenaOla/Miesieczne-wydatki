@@ -1,0 +1,4 @@
+<map id="MenagerWydatkow" name="MenagerWydatkow">
+<area shape="rect" id="node2" href="$class_lista_kategorii.html" title="Klasa ListaKategorii. Klasa ktora uniemozliwia duplikacje kategorii. " alt="" coords="5,5,107,32"/>
+<area shape="rect" id="node3" href="$class_lista_wydatkow.html" title="Klasa ListaWydatkow. Klasa przechowujaca liste wydatkow. " alt="" coords="131,5,242,32"/>
+</map>

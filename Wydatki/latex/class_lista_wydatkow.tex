@@ -1,0 +1,148 @@
+\hypertarget{class_lista_wydatkow}{}\section{Lista\+Wydatkow Class Reference}
+\label{class_lista_wydatkow}\index{Lista\+Wydatkow@{Lista\+Wydatkow}}
+
+
+Klasa \hyperlink{class_lista_wydatkow}{Lista\+Wydatkow}. Klasa przechowujaca liste wydatkow.  
+
+
+
+
+{\ttfamily \#include $<$listawydatkow.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_lista_wydatkow_a4eb91fdc04f1838878c5b077e0de415a}{}\hyperlink{class_lista_wydatkow_a4eb91fdc04f1838878c5b077e0de415a}{Lista\+Wydatkow} ()\label{class_lista_wydatkow_a4eb91fdc04f1838878c5b077e0de415a}
+
+\begin{DoxyCompactList}\small\item\em Konstruktor \hyperlink{class_lista_wydatkow}{Lista\+Wydatkow}. \end{DoxyCompactList}\item 
+\hyperlink{class_wydatek}{Wydatek} \hyperlink{class_lista_wydatkow_a5b6dbb32cc0b8af9bc310204f021ba93}{dodaj} (Q\+String \+\_\+kategoria, Q\+Date \+\_\+data, double \+\_\+kwota, Q\+String \+\_\+opis)
+\begin{DoxyCompactList}\small\item\em Funkcja dodaj.\+Funkcja przyjmuje 4 parametry\+: kategoria, data, kwota, opis. Tworzy obiekt typu wydatek. \end{DoxyCompactList}\item 
+void \hyperlink{class_lista_wydatkow_a028cb8e2868891df99496e6df8fbd7fa}{dodaj} (int \+\_\+\+I\+D, Q\+String \+\_\+kategoria, Q\+Date \+\_\+data, double \+\_\+kwota, Q\+String \+\_\+opis)
+\begin{DoxyCompactList}\small\item\em Funkcja dodaj. Funkcja przyjmuje 5 parametry\+: kategoria, data, kwota, opis, I\+D. Funkcja dodaje pojedynczy wpis. \end{DoxyCompactList}\item 
+\hypertarget{class_lista_wydatkow_a78bd61ad9ab795b9808b832ab61ac1e9}{}void \hyperlink{class_lista_wydatkow_a78bd61ad9ab795b9808b832ab61ac1e9}{print} ()\label{class_lista_wydatkow_a78bd61ad9ab795b9808b832ab61ac1e9}
+
+\begin{DoxyCompactList}\small\item\em Funkcja print. Wyswietla wpisy. \end{DoxyCompactList}\item 
+int \hyperlink{class_lista_wydatkow_a8eae3fd03fe00eef4870ff7b7dd8c8f3}{liczba\+Elementow} ()
+\begin{DoxyCompactList}\small\item\em Funkcja liczba\+Elementow. Zlicza ilosc wpisow. \end{DoxyCompactList}\item 
+Q\+List$<$ \hyperlink{class_wydatek}{Wydatek} $>$ \hyperlink{class_lista_wydatkow_af720f03b13ff95d45bcf876543fb4f52}{get\+Lista} ()
+\begin{DoxyCompactList}\small\item\em Funkcja get\+Lista. Zwraca liste wpisow. \end{DoxyCompactList}\item 
+\hypertarget{class_lista_wydatkow_a70fb9dd6af847bf2bb56e2e223e72adb}{}void \hyperlink{class_lista_wydatkow_a70fb9dd6af847bf2bb56e2e223e72adb}{wyczysc} ()\label{class_lista_wydatkow_a70fb9dd6af847bf2bb56e2e223e72adb}
+
+\begin{DoxyCompactList}\small\item\em Funkcja wyczysc. Funkcja usuwa elementy z listy. \end{DoxyCompactList}\item 
+\hyperlink{class_wydatek}{Wydatek} \hyperlink{class_lista_wydatkow_a660f862897a33a63b128fdc0761189a1}{get\+Wydatek} (int id)
+\begin{DoxyCompactList}\small\item\em Funkcja get\+Wydatek. Zwraca konkretny wpis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \hyperlink{class_lista_wydatkow}{Lista\+Wydatkow}. Klasa przechowujaca liste wydatkow. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_lista_wydatkow_a5b6dbb32cc0b8af9bc310204f021ba93}{}\index{Lista\+Wydatkow@{Lista\+Wydatkow}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!Lista\+Wydatkow@{Lista\+Wydatkow}}
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Wydatek} Lista\+Wydatkow\+::dodaj (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{\+\_\+kategoria, }
+\item[{Q\+Date}]{\+\_\+data, }
+\item[{double}]{\+\_\+kwota, }
+\item[{Q\+String}]{\+\_\+opis}
+\end{DoxyParamCaption}
+)}\label{class_lista_wydatkow_a5b6dbb32cc0b8af9bc310204f021ba93}
+
+
+Funkcja dodaj.\+Funkcja przyjmuje 4 parametry\+: kategoria, data, kwota, opis. Tworzy obiekt typu wydatek. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Zmienna} & \+\_\+kategoria jest argumentem typu Q\+String. \\
+\hline
+{\em Zmienna} & \+\_\+data jest argumentem typu Q\+Date. \\
+\hline
+{\em Zmienna} & \+\_\+kwota jest argumentem typu double. \\
+\hline
+{\em Zmienna} & \+\_\+opis jest argumentem typu Q\+String. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca obiekt typu \hyperlink{class_wydatek}{Wydatek}. 
+\end{DoxyReturn}
+\hypertarget{class_lista_wydatkow_a028cb8e2868891df99496e6df8fbd7fa}{}\index{Lista\+Wydatkow@{Lista\+Wydatkow}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!Lista\+Wydatkow@{Lista\+Wydatkow}}
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\+Wydatkow\+::dodaj (
+\begin{DoxyParamCaption}
+\item[{int}]{\+\_\+\+I\+D, }
+\item[{Q\+String}]{\+\_\+kategoria, }
+\item[{Q\+Date}]{\+\_\+data, }
+\item[{double}]{\+\_\+kwota, }
+\item[{Q\+String}]{\+\_\+opis}
+\end{DoxyParamCaption}
+)}\label{class_lista_wydatkow_a028cb8e2868891df99496e6df8fbd7fa}
+
+
+Funkcja dodaj. Funkcja przyjmuje 5 parametry\+: kategoria, data, kwota, opis, I\+D. Funkcja dodaje pojedynczy wpis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Zmienna} & \+\_\+\+I\+D jest argumentem typu int. \\
+\hline
+{\em Zmienna} & \+\_\+kategoria jest argumentem typu Q\+String. \\
+\hline
+{\em Zmienna} & \+\_\+data jest argumentem typu Q\+Date. \\
+\hline
+{\em Zmienna} & \+\_\+kwota jest argumentem typu double. \\
+\hline
+{\em Zmienna} & \+\_\+opis jest argumentem typu Q\+String. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_lista_wydatkow_af720f03b13ff95d45bcf876543fb4f52}{}\index{Lista\+Wydatkow@{Lista\+Wydatkow}!get\+Lista@{get\+Lista}}
+\index{get\+Lista@{get\+Lista}!Lista\+Wydatkow@{Lista\+Wydatkow}}
+\subsubsection[{get\+Lista}]{\setlength{\rightskip}{0pt plus 5cm}Q\+List$<$ {\bf Wydatek} $>$ Lista\+Wydatkow\+::get\+Lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_lista_wydatkow_af720f03b13ff95d45bcf876543fb4f52}
+
+
+Funkcja get\+Lista. Zwraca liste wpisow. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca obiekt typu Q\+List. 
+\end{DoxyReturn}
+\hypertarget{class_lista_wydatkow_a660f862897a33a63b128fdc0761189a1}{}\index{Lista\+Wydatkow@{Lista\+Wydatkow}!get\+Wydatek@{get\+Wydatek}}
+\index{get\+Wydatek@{get\+Wydatek}!Lista\+Wydatkow@{Lista\+Wydatkow}}
+\subsubsection[{get\+Wydatek}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Wydatek} Lista\+Wydatkow\+::get\+Wydatek (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\label{class_lista_wydatkow_a660f862897a33a63b128fdc0761189a1}
+
+
+Funkcja get\+Wydatek. Zwraca konkretny wpis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Zmienna} & id jest argumentem typu int. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca obiekt typu \hyperlink{class_wydatek}{Wydatek}. 
+\end{DoxyReturn}
+\hypertarget{class_lista_wydatkow_a8eae3fd03fe00eef4870ff7b7dd8c8f3}{}\index{Lista\+Wydatkow@{Lista\+Wydatkow}!liczba\+Elementow@{liczba\+Elementow}}
+\index{liczba\+Elementow@{liczba\+Elementow}!Lista\+Wydatkow@{Lista\+Wydatkow}}
+\subsubsection[{liczba\+Elementow}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\+Wydatkow\+::liczba\+Elementow (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_lista_wydatkow_a8eae3fd03fe00eef4870ff7b7dd8c8f3}
+
+
+Funkcja liczba\+Elementow. Zlicza ilosc wpisow. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca zmienna typu int. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+listawydatkow.\+h\item 
+listawydatkow.\+cpp\end{DoxyCompactItemize}

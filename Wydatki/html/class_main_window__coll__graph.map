@@ -1,0 +1,5 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node3" href="$class_menager_wydatkow.html" title="Klasa MenagerWydatkow. Klasa zawierajaca wszystkie listy i laczaca sie z baza. " alt="" coords="136,95,269,121"/>
+<area shape="rect" id="node4" href="$class_lista_kategorii.html" title="Klasa ListaKategorii. Klasa ktora uniemozliwia duplikacje kategorii. " alt="" coords="87,5,188,32"/>
+<area shape="rect" id="node5" href="$class_lista_wydatkow.html" title="Klasa ListaWydatkow. Klasa przechowujaca liste wydatkow. " alt="" coords="213,5,323,32"/>
+</map>
